@@ -13,6 +13,9 @@ $(document).ready(function(){
     newArray.push(favArray[0]);
     newArray.push(favArray[2]);
     console.log(newArray.toString());
-    debugger;
+    $('#liOne').text(newArray[0]);
+    $('#liTwo').text(newArray[1]);
+    $('#liThree').text(newArray[2]);
+
   });
 });
